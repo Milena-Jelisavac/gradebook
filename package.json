@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress open"
   },
   "author": "Milena Jelisavac",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "cypress": "^6.2.0"
+  },
+  "dependencies": {
+    "faker": "^5.1.0"
   }
 }

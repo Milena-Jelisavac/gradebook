@@ -1,0 +1,60 @@
+{
+    "Header" :{
+        "SignIn" : "a[href='/login']",
+        "Register" : "a[href='/register']",
+        "Gradebooks" : "a[href='/gradebooks']",
+        "MyGradebook" : "a[href='/my-gradebook/1532']",
+        "CreateGradebook" : "a[href='/create-gradebook']",
+        "Professors" : "#navbardrop",
+        "AllProfessors" : "a[href='/all-professors']",
+        "CreateProfesor" : "a[href='/create-professor']",
+        "SingOut" : "a.nav-item"
+
+
+        },
+    "SignIn" : {
+        "Email" : "input[name='email']",
+        "Password" : "input[name='password']",
+        "Login" : "button[type='submit']"
+        },
+        
+    "Register" :{
+        "FirstName" : "#firstName",
+        "LastName" : "#lastName",
+        "Password" : "#password",
+        "PasswordConfirmation" : "#passwordConfirmation",
+        "Email" : "#email",
+        "TermsAndConditions" : "#termsAndConditions",
+        "Submit" : "button[name='submit']"
+
+        },
+    "CreateProfesor" : {
+        "FirstName" : "#firstName",
+        "LastName" : "#lastName",
+        "AddImages" : ".btn-sm.btn-primary",
+        "ImageURL"  : "input[name='image_NaN']",
+        "Submit" : "button[type='submit']"
+    },
+    "CreateGradebook" : {
+        "GradebookTitle" : "#title",
+        "Professor" : "#professor",
+        "Submit" : "button"
+    },
+    "AllProfessors" : {
+        "Filter" : "input[type='text']"
+       
+    },
+    "Gradebooks" : {
+        "Filter" : "input[type='text']",
+        "Search" : "button.mt-3",
+        "Gradebook1" :"a[href='/single-gradebook/970']"
+    },
+    "SingleGradebookPage" : {
+        "AddStudent" : "a[href='/add-student/970']",
+        "Edit" : "a[href='/single-gradebook/970/edit']",
+        "Delete" : "button.btn-danger",
+        "TextComm" : "textarea",
+        "SubmitComm" : "button.btn-primary"
+    }
+
+}
